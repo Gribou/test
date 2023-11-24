@@ -20,7 +20,7 @@ RUN apk add --update --no-cache  \
 		       git \
 		       nano  \
 		       python3 py3-pip \
-           openssl-devel \
+                       openssl-dev \
 		       bash && \
               pip3 install --upgrade pip setuptools httpie
 
