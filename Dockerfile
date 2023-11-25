@@ -19,7 +19,6 @@ RUN apk add --update --no-cache  \
 		       vim \
 		       git \
 		       nano  \
-		       python3 py3-pip \
 		       bash && \
               pip3 install --upgrade pip setuptools httpie
 
@@ -73,3 +72,4 @@ USER user
 WORKDIR /home/user
 
 CMD ["sh", "-c", "tail -f /dev/null"]
+		        	
