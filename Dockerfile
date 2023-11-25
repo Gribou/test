@@ -14,8 +14,7 @@ RUN apk add --update --no-cache  \
 			   swaks 
 
 
-RUN  rm -rf /var/cache/apk/* \
-	 rm -r /root/.cache
+
 RUN adduser -S user  -G root
 USER user
 WORKDIR /home/user
