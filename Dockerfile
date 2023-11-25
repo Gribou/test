@@ -6,7 +6,7 @@ RUN apk add --update --no-cache  \
 		       net-tools \
 		       vim \
 		       nano  \
-		       bash && \
+		       bash 
              
 
 RUN apk add --update --no-cache  \
